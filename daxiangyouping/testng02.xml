@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="loggersuite">
+   <test name="loggertest">
+     <classes>
+       <class name="com.cncn.tests.LoggerTest"/>
+       <class name="com.cncn.tests.LoggerTest1"/>
+     </classes>
+   </test>
+</suite>

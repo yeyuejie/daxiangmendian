@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="daxiang">
+ <listeners>
+   <listener class-name="com.cncn.testutils.MyListener"/>
+ </listeners>
+ <test name="yuying">
+   <classes>
+     <class name="com.cncn.testutils.BaseTest"/>
+     <class name="com.cncn.testutils.BeforeSuiteTest"/>
+     <class name="com.cncn.tests.LoginTest"/>
+     <class name="com.cncn.testutils.AfterSuiteTest"/>
+   </classes>
+ </test>
+</suite>
